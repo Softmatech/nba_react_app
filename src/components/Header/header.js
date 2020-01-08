@@ -5,6 +5,7 @@ import FontAwesome from "react-fontawesome";
 import SideNav from "./SideNav/sideNav";
 
 const Header = props => {
+
   const navBars = () => (
     <div className={style.bars}>
       <FontAwesome
@@ -21,7 +22,7 @@ const Header = props => {
 
   const logo = () => (
     <Link to="/" className={style.logo}>
-      <img alt="NBA LOGO" src="/images/nba_logo.png" />
+      <img alt="FHF LOGO" src="/images/fhf_logo.png" />
     </Link>
   );
 
